@@ -9,7 +9,7 @@ function Fruit() {
   return (
     
     <div id="Fruit">
-        <p>{sampleLocation.pathname}</p>
+        <h1>{sampleLocation.pathname}</h1>
     </div>
 
     
