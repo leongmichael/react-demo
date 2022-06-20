@@ -2,7 +2,6 @@ import React, { Suspense } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 const Home = React.lazy(() => import("./components/Home")); // components / templates
-const Fruit = React.lazy(() => import("./components/Fruit"));
 
 
 
@@ -13,7 +12,6 @@ function App() {
       <Suspense>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/:fruit" element={<Fruit />} />
         </Routes>
       </Suspense>
     </BrowserRouter>
