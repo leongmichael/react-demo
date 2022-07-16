@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-Simple app for learning React.
+Simple app to learn React.
 
 ## Setup / Installation
 
